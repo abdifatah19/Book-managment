@@ -1,5 +1,10 @@
 package com.metro.bm.service;
 
-public interface Bookservice {
+import java.util.List;
 
+import com.metro.bm.entity.Book;
+
+public interface BookService {
+  List<Book>getallbooks();
+  
 }
